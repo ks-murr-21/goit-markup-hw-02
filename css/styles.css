@@ -1,9 +1,13 @@
 body {
-  color: #4d5ae5;
+  color: #434455;
   background: #fff;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
+}
+
+.address {
+  font-style: normal;
 }
 
 .top-line {
@@ -13,7 +17,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.nav-logo {
+.nav-logo-first-item {
   color: #4d5ae5;
   font-family: Raleway;
   font-size: 18px;
@@ -23,7 +27,7 @@ body {
   text-transform: uppercase;
 }
 
-.span-logo {
+.span-logo-second-item {
   color: #2e2f42;
   font-family: Raleway;
   font-size: 18px;
@@ -33,11 +37,18 @@ body {
   text-transform: uppercase;
 }
 
-button,
+.button-order-service {
+  color: #ffffff
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
 button:hover,
 button:focus {
   border-radius: 4px;
-  background: #4d5ae5;
+  background-color: #404BBF;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
@@ -75,9 +86,9 @@ button:active {
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 1.12px;
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 
 .benefits-caption {
@@ -98,16 +109,18 @@ button:active {
 
 .team {
   color: #2e2f42;
+  background-color: #F4F4FD
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11;
+  line-height: 1.2;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
 
 .team-caption {
   color: #2e2f42;
+  background-color: #FFFFFF
   font-size: 20px;
   font-weight: 500;
   line-height: 1.5;
@@ -115,6 +128,7 @@ button:active {
 }
 .team-desc {
   color: #434455;
+  background-color: #FFFFFF
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -126,7 +140,7 @@ button:active {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11;
+  line-height: 1.2;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -135,7 +149,7 @@ button:active {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 .portfolio-desc {
@@ -148,11 +162,19 @@ button:active {
 .footer {
 }
 .logo {
+  color: #4d5ae5;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+
 }
 .footer-text {
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
