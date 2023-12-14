@@ -38,23 +38,24 @@ body {
 }
 
 .button-order-service {
-  color: #ffffff
+  color: #ffffff;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  background-color: #4d5ae5;
 }
 
 button:hover,
 button:focus {
   border-radius: 4px;
-  background-color: #404BBF;
+  background-color: #404bbf;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 button:active {
   border-radius: 4px;
-  background: #404bbf;
+  background-color: #404bbf;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
@@ -95,7 +96,7 @@ button:active {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 
@@ -109,26 +110,26 @@ button:active {
 
 .team {
   color: #2e2f42;
-  background-color: #F4F4FD
+  background-color: #f4f4fd;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
 
 .team-caption {
   color: #2e2f42;
-  background-color: #FFFFFF
+  background-color: #ffffff;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 .team-desc {
   color: #434455;
-  background-color: #FFFFFF
+  background-color: #ffffff;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -140,7 +141,7 @@ button:active {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -163,14 +164,19 @@ button:active {
 }
 .logo {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-
+  background-color: #2e2f42;
 }
+
+.span-logo {
+  color: #f4f4fd;
+}
+
 .footer-text {
   color: #f4f4fd;
   font-size: 16px;
