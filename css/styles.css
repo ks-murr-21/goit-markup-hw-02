@@ -115,6 +115,9 @@ button:active {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+.section-team {
+  background-color: #f4f4fd;
+}
 
 .team {
   color: #2e2f42;
@@ -125,6 +128,10 @@ button:active {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+}
+
+.team-list {
+  background-color: #ffffff;
 }
 
 .team-caption {
