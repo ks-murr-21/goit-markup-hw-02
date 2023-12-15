@@ -38,14 +38,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.top-line-item .link:hover {
+.top-line-item:hover {
   color: #404bbf;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.top-line-item .link:focus {
+.top-line-item:focus {
   color: #404bbf;
   font-size: 16px;
   font-weight: 500;
@@ -62,8 +62,15 @@ body {
   letter-spacing: 0.32px;
 }
 
-.address-list .link:hover,
-.address-list .link:focus {
+.address-list:hover {
+  color: #404bbf;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.address-list:focus {
   color: #404bbf;
   font-size: 16px;
   font-style: normal;
@@ -96,9 +103,11 @@ body {
   letter-spacing: 0.64px;
 }
 
-.hero-button .link:hover,
-.hero-button .link:active {
-  color: #404bbf;
+.hero-button:hover {
+  background-color: #404bbf;
+}
+.hero-button:active {
+  background-color: #404bbf;
 }
 
 .section-features {
@@ -133,7 +142,7 @@ body {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11;
+  line-height: 1.2;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
