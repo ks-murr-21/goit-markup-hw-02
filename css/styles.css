@@ -74,11 +74,11 @@ body {
   color: #434455;
 }
 
-.address-item:hover {
+.address-link:hover {
   color: #404bbf;
 }
 
-.address-item:focus {
+.address-link:focus {
   color: #404bbf;
 }
 .hero {
