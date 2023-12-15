@@ -134,6 +134,8 @@ button:active {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
+
+.team-item,
 .team-list {
   background-color: #ffffff;
 }
