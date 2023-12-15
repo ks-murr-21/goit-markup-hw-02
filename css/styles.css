@@ -13,7 +13,7 @@ body {
 }
 .logo {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -23,7 +23,7 @@ body {
 
 .span-logo {
   color: #2e2f42;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -40,30 +40,42 @@ body {
 }
 .top-line-item .link:hover {
   color: #404bbf;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
-.top-line-item .link:active {
+.top-line-item .link:focus {
   color: #404bbf;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 .address {
 }
 .address-list {
   color: #434455;
   font-size: 16px;
-  font-weight: 400;
+  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
 .address-list .link:hover,
-.address-list .link:active {
+.address-list .link:focus {
   color: #404bbf;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 .address-item {
 }
 .address-link {
 }
 .hero {
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 .hero-title {
   color: #fff;
@@ -75,8 +87,7 @@ body {
   letter-spacing: 1.12px;
 }
 .hero-button {
-  border-radius: 4px;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   cursor: pointer;
   color: #fff;
   font-size: 16px;
@@ -91,7 +102,7 @@ body {
 }
 
 .section-features {
-  background: #fff;
+  background-color: #fff;
 }
 
 .features-title {
@@ -115,7 +126,7 @@ body {
   letter-spacing: 0.32px;
 }
 .section-team {
-  background: #f4f4fd;
+  background-color: #f4f4fd;
 }
 .team-title {
   color: #2e2f42;
@@ -129,7 +140,7 @@ body {
 .team-list {
 }
 .team-item {
-  background: #fff;
+  background-color: #fff;
 }
 .team-img {
 }
@@ -155,7 +166,6 @@ body {
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.72px;
@@ -170,25 +180,23 @@ body {
 .portfolio-caption {
   color: #2e2f42;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
 }
 .portfolio-desc {
   color: #434455;
-  text-align: center;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
 .footer {
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 .footer-logo {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -197,7 +205,7 @@ body {
 }
 .footer-span-logo {
   color: #f4f4fd;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
