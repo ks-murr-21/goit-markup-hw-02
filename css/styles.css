@@ -19,6 +19,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .span-logo {
@@ -29,6 +30,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .top-line-list {
@@ -37,10 +39,12 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  list-style: none;
 }
 
 .top-line-link {
   color: #2e2f42;
+  text-decoration: none;
 }
 
 .top-line-link:hover {
@@ -66,12 +70,15 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  list-style: none;
+  text-decoration: none;
 }
 
 .address-item {
 }
 .address-link {
   color: #434455;
+  text-decoration: none;
 }
 
 .address-link:hover {
@@ -117,6 +124,7 @@ body {
 .features-title {
 }
 .features-list {
+  list-style: none;
 }
 .features-item {
 }
@@ -147,6 +155,7 @@ body {
   text-transform: capitalize;
 }
 .team-list {
+  list-style: none;
 }
 .team-item {
   background-color: #fff;
@@ -181,6 +190,7 @@ body {
   text-transform: capitalize;
 }
 .portfolio-list {
+  list-style: none;
 }
 .portfolio-item {
 }
@@ -211,6 +221,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .footer-span-logo {
   color: #f4f4fd;
@@ -220,6 +231,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .footer-desc {
   color: #f4f4fd;
